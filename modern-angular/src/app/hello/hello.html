@@ -1,0 +1,12 @@
+<p>this is my first Angular app!</p>
+<h1>{{ title }}</h1>
+<button [disabled]="isDisabled" (click)="onClick()">Click me</button>
+<p>You have clicked the button {{ clicks }} times.</p>
+
+<h1>Increase decrease using Signals</h1>
+<button (click)="decrease()">-</button>
+<span>&nbsp; {{ counter() }} &nbsp;</span>
+<button (click)="increase()">+</button>
+<span>&nbsp; &nbsp;</span>
+<button (click)="reset()">Reset counter</button>
+<span>&nbsp; double counter {{doubleCounter()}} &nbsp;</span>

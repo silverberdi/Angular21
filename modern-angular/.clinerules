@@ -1,0 +1,1 @@
+NUNCA leas ni indexes la carpeta node_modules, dist, .git o .angular. Antes de leer cualquier archivo, verifica que no sea un archivo de datos masivo. Si necesitas instalar algo o ejecutar un comando, pide permiso primero y explica cuántos archivos planeas analizar.
